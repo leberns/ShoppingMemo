@@ -8,6 +8,7 @@ The application implements a shopping list.
 
 * backend: .Net 6 Web API
 * frontend: React 17
+* Material UI 5
 
 ## Project initialization
 
@@ -28,6 +29,8 @@ npm prune
 npm install @mui/material @mui/styled-engine-sc styled-components
 npm install @emotion/react
 npm install @emotion/styled
+npm install typescript @types/node @types/react @types/react-dom @types/jest --dev
+npm install --save-dev @types/react-router-dom
 ```
 
 ## Development
@@ -43,3 +46,5 @@ npm run-script build
 cd C:\Dev\GitHub\leberns\ShoppingMemo\
 dotnet run
 ```
+
+* Open https://localhost:7227

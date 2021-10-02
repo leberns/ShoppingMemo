@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-import { Toolbar, Button } from '@mui/material';
+import { Toolbar, Button, Typography } from '@mui/material';
 
-function NavMenu(props) {
+function NavMenu() {
     return (
       <Toolbar>
-        <Button component={Link} to={"/"}>Shopping Memo</Button>
+        <Typography>Shopping Memo</Typography>
         <Button component={Link} to={"/"}>Home</Button>
         <Button component={Link} to={"/counter"}>Counter</Button>
         <Button component={Link} to={"/fetch-data"}>Fetch data</Button>
